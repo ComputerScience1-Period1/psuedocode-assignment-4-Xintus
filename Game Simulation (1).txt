@@ -6,7 +6,7 @@
    * if there are any aces: 
       * Move to the delegated pile on the side and look at flipped over cards;
       * Check if any face up in the piles can be put on top of aces in sequential ascending order that also has the same suite:
-         * If yes, move
+         * If yes, move;
 * Check if you can move cards between piles (moving to pile must be in descending order and must be alternating in color (i.e. black then red/red then black):
    * If can, move any available cards from one pile to another;
    * If there is a card under the card you move:
@@ -38,7 +38,7 @@
       * Repeat previous process;
       * If second card is moved=true:
          * Check if third card can be moved:
-            * If true, repeat
+            * If true, repeat;
 * If there are leftover cards (i.e. first flipped, second, or third flipped weren’t moved ):
    * Place them to the bottom of the deck;
 * Check if you can move cards between piles (moving to pile must be in descending order and must be alternating in color (i.e. black then red/red then black):
