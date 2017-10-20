@@ -22,7 +22,7 @@
 * If preceding moves can be repeated:
    * Continue to move until no more moves are possible;
 * Flip over 3 cards from the top of the deck one at a time if there are less than 3 cards, deal as many as you can;
-* Look at the top card:
+* Look at the top card;
    * Check if the first card can be put on top of a foundation or start a foundation with an ace (Must be sequential and same suite):
       * If true, move;
    * Check if card can be moved to a pile:
@@ -34,7 +34,7 @@
       * If open pile = true, move it there;
       * Else, skip;
       * Check for possible repeated moves;
-   * If first card is moved, check second face-up card
+   * If first card is moved, check second face-up card:
       * Repeat previous process;
       * If second card is moved=true:
          * Check if third card can be moved:
